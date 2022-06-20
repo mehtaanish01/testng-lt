@@ -66,18 +66,18 @@
             <version>2.0</version>
             <scope>compile</scope>
         </dependency>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>com.github.seanzor.webgl.detect</groupId>
 			<artifactId>detect-webgl</artifactId>
 			<version>1.0.2</version>
 			<scope>compile</scope>
-		</dependency>
-		<dependency>
+		</dependency> -->
+<!-- 		<dependency>
 			<groupId>com.github.seanzor</groupId>
 			<artifactId>detect-webgl</artifactId>
 			<version>1.0.3</version>
 			<scope>compile</scope>
-		</dependency>
+		</dependency> -->
 		<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
 		<dependency>
 			<groupId>io.appium</groupId>
