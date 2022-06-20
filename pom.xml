@@ -9,9 +9,9 @@
 		<sourceDirectory>Java-TestNG-Selenium</sourceDirectory>
 		<resources>
 			<resource>
-				<directory>Java-TestNG-Selenium/src</directory>
+				<directory>src</directory>
 				<excludes>
-					<exclude>**/*.java</exclude>
+					<exclude>src/test/java/com/lambdatest/*.java</exclude>
 				</excludes>
 			</resource>
 		</resources>
