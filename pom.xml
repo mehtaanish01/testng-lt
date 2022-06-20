@@ -33,7 +33,7 @@
 				</executions>
 <!-- 				<configuration>
 					<suiteXmlFiles>
-						<!--suppress UnresolvedMavenProperty -->
+						<suppress UnresolvedMavenProperty>
 						<suiteXmlFile>${suite}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration> -->
