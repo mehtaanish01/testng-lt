@@ -4,6 +4,7 @@
   <test thread-count="1" parallel="classes" name="Test">
     <classes>
       <class name="com.lambdatest.Download_file"/>
+      <class name="com.lambdatest.TestNGTodo3"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
