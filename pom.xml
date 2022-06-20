@@ -115,12 +115,12 @@
 			<version>0.0.1</version>
 			<scope>compile</scope>
 		</dependency>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>com.browserstack</groupId>
 			<artifactId>appiumdriver-framework-core</artifactId>
 			<version>0.0.1</version>
 			<scope>compile</scope>
-		</dependency>
+		</dependency> -->
 
 
 	</dependencies>
