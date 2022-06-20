@@ -90,7 +90,7 @@
 			<groupId>io.appium</groupId>
 			<artifactId>java-client</artifactId>
 			<version>7.6.0</version>
-		</dependency>
+<!-- 		</dependency>
 		<dependency>
 			<groupId>com.browserstack</groupId>
 			<artifactId>appiumdriver-framework</artifactId>
@@ -114,7 +114,7 @@
 			<artifactId>appiumdriver-framework-junit4</artifactId>
 			<version>0.0.1</version>
 			<scope>compile</scope>
-		</dependency>
+		</dependency> -->
 <!-- 		<dependency>
 			<groupId>com.browserstack</groupId>
 			<artifactId>appiumdriver-framework-core</artifactId>
