@@ -31,12 +31,12 @@
 						</goals>
 					</execution>
 				</executions>
-				<configuration>
+<!-- 				<configuration>
 					<suiteXmlFiles>
 						<!--suppress UnresolvedMavenProperty -->
 						<suiteXmlFile>${suite}</suiteXmlFile>
 					</suiteXmlFiles>
-				</configuration>
+				</configuration> -->
 			</plugin>
 		</plugins> -->
 
