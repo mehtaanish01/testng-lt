@@ -38,7 +38,7 @@ public class Download_file {
         caps.setCapability("build", "502_intermittent");
         caps.setCapability("name", "test01");
         caps.setCapability("network",true);
-        //caps.setCapability("driver_version", "102.0");
+        caps.setCapability("driver_version", "102.0");
         caps.setCapability("console", "true");
 
         caps.setCapability("extendedDebuging", "true");
