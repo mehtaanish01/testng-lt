@@ -29,16 +29,35 @@ public class Download_file {
     String hub = "@hub.lambdatest.com/wd/hub";
 
     DesiredCapabilities caps = new DesiredCapabilities();
-    caps.setCapability("platform", "Windows 10");
-    caps.setCapability("browserName", "Chrome");
-    caps.setCapability("version", "100.0");
+    caps.setCapability("platformName", "windows 10");
+        caps.setCapability("browserName", "chrome");
+
+        //caps.setCapability("platformVersion", "14.2");
+
+
+        caps.setCapability("build", "502_intermittent");
+        caps.setCapability("name", "test01");
+        caps.setCapability("network",true);
+        //caps.setCapability("driver_version", "102.0");
+        caps.setCapability("console", "true");
+
+        caps.setCapability("extendedDebuging", "true");
+        caps.setCapability("selenium_version", "3.141.59");
+        caps.setCapability("version", "102.0");
+        caps.setCapability("video", "true");
+        caps.setCapability("visual", "true");
+        caps.setCapability("w3c", "true");
+
+    //caps.setCapability("platform", "Windows 10");
+    //caps.setCapability("browserName", "Chrome");
+    //caps.setCapability("version", "100.0");
     //caps.setCapability("idleTimeout", "300");
 
 
     // Fixed IP
     //caps.setCapability("fixedIP", "10.242.33.74");
-    caps.setCapability("build", "TestNG With Java");
-    caps.setCapability("network",true);
+    //caps.setCapability("build", "TestNG With Java");
+    //caps.setCapability("network",true);
     //caps.setCapability("seCdp",true);
     //caps.setCapability("w3c",true);
     //caps.setCapability("selenium_version","4.1.0");
@@ -59,7 +78,19 @@ public class Download_file {
   public void basicTest() throws InterruptedException {
     String spanText;
     try {
+
+            for(int i=1;i<=150;i++) {
+            System.out.println("baseUrl");
+
+
+            String baseUrl = "https://fitstore.ee/";
+            driver.get(baseUrl);
+
+            //using submit method to submit the form. Submit used on password field
+            driver.get(baseUrl);
+            Thread.sleep(6000);
       System.out.println("Loading Url");
+            }
 
       driver.get("https://chromedriver.storage.googleapis.com/index.html?path=2.0/");
 
