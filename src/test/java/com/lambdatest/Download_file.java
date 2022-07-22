@@ -79,7 +79,7 @@ public class Download_file {
     String spanText;
     try {
 
-            for(int i=1;i<=150;i++) {
+            for(int i=1;i<=5;i++) {
             System.out.println("baseUrl");
 
 
